@@ -3,6 +3,7 @@ import { createResource, createSignal, lazy } from 'solid-js';
 import solidLogo from './assets/solid.svg';
 import './App.css';
 
+console.log(process.env.OPEN_AI_KEY);
 const routes = [
 	// {
 	// 	path: '/users',
